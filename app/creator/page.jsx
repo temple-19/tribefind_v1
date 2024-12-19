@@ -1,12 +1,24 @@
 "use client";
+import Dropdown from "@/components/Dropdown";
 import React, { useEffect, useState } from "react";
 
 const page = () => {
   const [checkboxOneChecked, setCheckboxOneChecked] = useState(false);
   const [checkboxTwoChecked, setCheckboxTwoChecked] = useState(false);
+  const [selectedCountry, setSelectedCountry] = useState("");
 
-  const handleCheckboxChange = (event, setState) => {
-    setState(event.target.checked);
+  const handleCountryChange = (event) => {
+    setSelectedCountry(event.target.value);
+    console.log(object);
+  };
+
+  const handleCheckboxChange = (event) => {
+    setCheckboxOneChecked(event.target.checked);
+    // console.log(checkboxOneChecked, event.target.checked);
+  };
+  const handleCheckboxChangetwo = (event) => {
+    setCheckboxTwoChecked(event.target.checked);
+    // console.log(checkboxTwoChecked, event.target.checked);
   };
 
   return (
@@ -47,20 +59,16 @@ const page = () => {
         />
         <input
           type="password"
-          placeholder="Password"
+          placeholder="Password (8 or more characters)"
           className=" w-full border  my-2 rounded-xl p-2 border-[#E9ECE9] "
         />
-        <input
-          type="text"
-          placeholder="Enter your name"
-          className=" w-full border  my-2 rounded-xl p-2 border-[#E9ECE9] "
-        />
+        <Dropdown value={selectedCountry} onChange={handleCountryChange} />
         {/* Checkbox 1 */}
         <div className="flex items-start my-2">
           <input
             type="checkbox"
             className="mt-1 mr-2"
-            onChange={(e) => handleCheckboxChange(e, setCheckboxOneChecked)}
+            onChange={(e) => handleCheckboxChange(e)}
           />
           <p>Send me helpful emails to find rewarding work and job leads.</p>
         </div>
@@ -70,7 +78,7 @@ const page = () => {
           <input
             type="checkbox"
             className="mt-1 mr-2"
-            onChange={(e) => handleCheckboxChange(e, setCheckboxTwoChecked)}
+            onChange={(e) => handleCheckboxChangetwo(e)}
           />
           <p>
             Yes, I understand and agree to the TribeFind Terms of Service,

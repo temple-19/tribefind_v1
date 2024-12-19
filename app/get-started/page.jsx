@@ -13,7 +13,10 @@ const page = () => {
     <div className="bg-white rounded-xl p-10 mx-auto w-[55%]">
       <h2 className="text-[36px] mb-5 text-center">Log in to Tribefind</h2>
       <div className="flex flex-col items-center">
-        <input className="p-2 w-full mt-3 text-black font-semibold whitespace-nowrap rounded-lg border border-[#E9ECE9] " />
+        <input
+          placeholder="Username or Email"
+          className="p-2 w-full mt-3 text-black font-semibold whitespace-nowrap rounded-lg border border-[#E9ECE9] "
+        />
       </div>
       <div className="flex flex-col items-center">
         <button className="p-2 w-full mt-3 bg-[#FF501E] text-black font-semibold whitespace-nowrap rounded-lg border-2 border-r-4 border-b-4 border-black">

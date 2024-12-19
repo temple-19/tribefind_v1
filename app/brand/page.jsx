@@ -47,7 +47,7 @@ const page = () => {
         />
         <input
           type="password"
-          placeholder="Password"
+          placeholder="Password (8 or more characters)"
           className=" w-full border  my-2 rounded-xl p-2 border-[#E9ECE9] "
         />
         <input
