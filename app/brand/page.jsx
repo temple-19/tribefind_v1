@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
 
 const page = () => {
   const [checkboxOneChecked, setCheckboxOneChecked] = useState(false);
@@ -11,15 +12,30 @@ const page = () => {
 
   return (
     <div className="bg-white rounded-xl p-4 mx-auto max-w-[650px] ">
-      <h2 className="text-[36px] mb-5">
-        Sign up to connect with the right brands
+      <h2 className="text-[27px] md:text-[32px] md:text-center mb-5 md:w-3/4 md:mx-auto">
+        Sign up to connect with the right Creators & Influencers.
       </h2>
       <div className="flex-col">
-        <button className="p-2 w-full mt-3 bg-[#F4F9F5] text-black font-semibold whitespace-nowrap rounded-lg border-2 border-r-4 border-b-4 border-black">
-          Continue with Apple
+        <button className="p-2 w-full mt-3 bg-[#F4F9F5] text-black font-semibold whitespace-nowrap rounded-lg border-2 border-r-4 border-b-4 border-black flex items-center justify-center gap-2">
+          <Image
+            src="/assets/icons/google.svg"
+            alt="iPhone Illustration"
+            width={20}
+            height={20}
+            className=""
+          />
+          <span>Continue with Apple</span>
         </button>
-        <button className="p-2 w-full mt-3 bg-[#1EBDEA] text-black font-semibold whitespace-nowrap rounded-lg border-2 border-r-4 border-b-4 border-black">
-          Continue with Google
+
+        <button className="p-2 w-full mt-3 bg-[#1EBDEA] text-black font-semibold whitespace-nowrap rounded-lg border-2 border-r-4 border-b-4 border-black flex justify-center items-center gap-2">
+          <Image
+            src="/assets/icons/apple.svg"
+            alt="iPhone Illustration"
+            width={20}
+            height={20}
+            className=""
+          />
+          <span>Continue with Apple</span>
         </button>
       </div>
       <div className="flex items-center gap-2 justify-center">
@@ -77,12 +93,12 @@ const page = () => {
             including the User Agreement and Privacy policy.
           </p>
         </div>
-        <input className=" w-full border  my-2 rounded-xl p-2 border-[#E9ECE9] " />
+        {/* <input className=" w-full border  my-2 rounded-xl p-2 border-[#E9ECE9] " />
         <input className=" w-full border  my-2 rounded-xl p-2 border-[#E9ECE9] " />
         <div className="space-x-6 flex justify-between">
           <input className=" border w-[50%] my-2 rounded-xl p-2 border-[#E9ECE9]" />
           <input className=" border w-[50%] my-2 rounded-xl p-2 border-[#E9ECE9]" />
-        </div>
+        </div> */}
         <button className="p-2 w-full mt-3 bg-[#FF501E] text-black font-semibold whitespace-nowrap rounded-lg border-2 border-r-4 border-b-4 border-black">
           Create An Account
         </button>

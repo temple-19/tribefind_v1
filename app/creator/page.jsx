@@ -1,6 +1,7 @@
 "use client";
 import Dropdown from "@/components/Dropdown";
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
 
 const page = () => {
   const [checkboxOneChecked, setCheckboxOneChecked] = useState(false);
@@ -27,11 +28,26 @@ const page = () => {
         Sign up to connect with the right brands
       </h2>
       <div className="flex-col">
-        <button className="p-2 w-full mt-3 bg-[#F4F9F5] text-black font-semibold whitespace-nowrap rounded-lg border-2 border-r-4 border-b-4 border-black">
-          Continue with Apple
+        <button className="p-2 w-full mt-3 bg-[#F4F9F5] text-black font-semibold whitespace-nowrap rounded-lg border-2 border-r-4 border-b-4 border-black flex items-center justify-center gap-2">
+          <Image
+            src="/assets/icons/google.svg"
+            alt="iPhone Illustration"
+            width={20}
+            height={20}
+            className=""
+          />
+          <span>Continue with Apple</span>
         </button>
-        <button className="p-2 w-full mt-3 bg-[#1EBDEA] text-black font-semibold whitespace-nowrap rounded-lg border-2 border-r-4 border-b-4 border-black">
-          Continue with Google
+
+        <button className="p-2 w-full mt-3 bg-[#1EBDEA] text-black font-semibold whitespace-nowrap rounded-lg border-2 border-r-4 border-b-4 border-black flex justify-center items-center gap-2">
+          <Image
+            src="/assets/icons/apple.svg"
+            alt="iPhone Illustration"
+            width={20}
+            height={20}
+            className=""
+          />
+          <span>Continue with Apple</span>
         </button>
       </div>
       <div className="flex items-center gap-2 justify-center">
