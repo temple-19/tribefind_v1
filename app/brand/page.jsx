@@ -12,6 +12,7 @@ const page = () => {
 
   return (
     <div className="bg-white rounded-xl p-4 mx-auto max-w-[650px] ">
+      <div></div>
       <h2 className="text-[27px] md:text-[32px] md:text-center mb-5 md:w-3/4 md:mx-auto">
         Sign up to connect with the right Creators & Influencers.
       </h2>
