@@ -36,23 +36,23 @@ const Nav = () => {
       {/* Center Section: Navigation Buttons */}
       <div className="hidden md:flex gap-8">
         <Link
-          href="/for-creators"
+          href="/creator"
           className="text-gray-700 hover:text-black font-medium"
         >
           For Creators
         </Link>
         <Link
-          href="/for-brands"
+          href="/brand"
           className="text-gray-700 hover:text-black font-medium"
         >
           For Brands
         </Link>
-        <Link
+        {/* <Link
           href="/about-us"
           className="text-gray-700 hover:text-black font-medium"
         >
           About Us
-        </Link>
+        </Link> */}
       </div>
 
       {/* Right Section: Sign In / Hamburger Menu */}
@@ -77,20 +77,33 @@ const Nav = () => {
             </Link>
           </div>
         ) : (
-          <button
-            type="button"
-            onClick={() => providers && signIn(Object.values(providers)[0].id)}
-            className="bg-black text-white md:flex px-4 py-2 rounded hover:bg-gray-800 hidden "
-          >
-            Get Started
-            <Image
-              src="/assets/icons/right arrow.svg"
-              alt="logo"
-              width={20}
-              height={20}
-              className="object-contain ml-3 mt-1"
-            />
-          </button>
+          // <button
+          //   type="button"
+          //   onClick={() => providers && signIn(Object.values(providers)[0].id)}
+          //   className="bg-black text-white md:flex px-4 py-2 rounded hover:bg-gray-800 hidden "
+          //   href="https://form.typeform.com/to/LV3PybD4"
+          // >
+          //   Get Started
+          //   <Image
+          //     src="/assets/icons/right arrow.svg"
+          //     alt="logo"
+          //     width={20}
+          //     height={20}
+          //     className="object-contain ml-3 mt-1"
+          //   />
+          // </button>
+          <Link href="https://form.typeform.com/to/LV3PybD4" passHref>
+            <button className="bg-black text-white md:flex px-4 py-2 rounded hover:bg-gray-800 hidden ">
+              Get Started
+              <Image
+                src="/assets/icons/right arrow.svg"
+                alt="logo"
+                width={20}
+                height={20}
+                className="object-contain ml-3 mt-1"
+              />
+            </button>
+          </Link>
         )}
 
         {/* Hamburger Menu for Mobile */}
@@ -110,26 +123,26 @@ const Nav = () => {
         {toggleDropdown && (
           <div className="absolute top-full right-0 mt-2 bg-white shadow-lg rounded-lg p-4 flex flex-col gap-3 z-50">
             <Link
-              href="/for-creators"
+              href="https://form.typeform.com/to/LV3PybD4"
               className="text-gray-700 whitespace-nowrap  hover:text-black font-medium"
               onClick={() => setToggleDropdown(false)}
             >
               For Creators
             </Link>
             <Link
-              href="/for-brands"
+              href="https://form.typeform.com/to/LV3PybD4"
               className="text-gray-700 whitespace-nowrap  hover:text-black font-medium"
               onClick={() => setToggleDropdown(false)}
             >
               For Brands
             </Link>
-            <Link
+            {/* <Link
               href="/about-us"
               className="text-gray-700 hover:text-black whitespace-nowrap  font-medium"
               onClick={() => setToggleDropdown(false)}
             >
               About Us
-            </Link>
+            </Link> */}
             {session?.user ? (
               <button
                 type="button"
@@ -142,16 +155,19 @@ const Nav = () => {
                 Sign Out
               </button>
             ) : (
-              <button
-                type="button"
-                onClick={() => {
-                  setToggleDropdown(false);
-                  providers && signIn(Object.values(providers)[0].id);
-                }}
-                className="text-blue-500 whitespace-nowrap  font-medium"
-              >
-                Get Started
-              </button>
+              <Link href="https://form.typeform.com/to/LV3PybD4" passHref>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setToggleDropdown(false);
+                    providers && signIn(Object.values(providers)[0].id);
+                  }}
+                  className=" whitespace-nowrap font-medium"
+                >
+                  <span className="mr-1 text-[#FF501E]">Get</span>
+                  <span className="text-[#1EBDEA]">Started</span>
+                </button>
+              </Link>
             )}
           </div>
         )}

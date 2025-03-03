@@ -11,19 +11,19 @@ const Works = () => {
       <div className=" rounded-xl  text-black mx-auto  justify-center items-center py-4 space-x-2 md:space-x-5">
         <Link
           className="bg-[#1EBDEA] py-3 whitespace-nowrap px-2 font-semibold rounded-lg border-2 border-black"
-          href="/get-started"
+          href="https://form.typeform.com/to/LV3PybD4"
         >
           Create An Account
         </Link>
         <Link
           className=" py-3 px-2 font-semibold whitespace-nowrap rounded-lg border-2 border-r-4 border-b-4 border-black"
-          href="/get-started"
+          href="https://form.typeform.com/to/LV3PybD4"
         >
           Collaborate
         </Link>
         <Link
           className="bg-[#FF501E] whitespace-nowrap py-3 px-2 font-semibold rounded-lg border-2 border-r-4 border-b-4 border-black"
-          href="/get-started"
+          href="https://form.typeform.com/to/LV3PybD4"
         >
           Track Performance
         </Link>
@@ -32,18 +32,15 @@ const Works = () => {
         <div className=" bg-[#1EBDEA] px-4 py-10 text-white rounded-xl mt-6 ">
           <div className="mt-10 px-10 text-center md:text-left md:flex justify-between">
             <div className="md:w-1/2">
-              <h2 className="md:text-3xl text-xl mb-8">
-                Maximize Brand Awareness Globally
-              </h2>
+              <h2 className="md:text-3xl text-xl mb-8">Create an Account</h2>
               <p className="mb-5">
-                Expand your brand's presence worldwide by partnering with
-                influencers from our extensive database. Tribefind offers a
-                unique advantage with our large selection of influencers from
-                Africa, helping you make a global impact.
+                Join our exclusive waitlist and be among the first to access
+                Africa&#39;s top brand-influencer marketplace. Secure your spot
+                today and get early access when we launch.
               </p>
               <Link
                 className="p-2 bg-[#F4F9F5] text-black font-semibold whitespace-nowrap rounded-lg border-2 border-r-4 border-b-4 border-black"
-                href="/get-started"
+                href="https://form.typeform.com/to/LV3PybD4"
               >
                 Collaborate
               </Link>
@@ -60,18 +57,16 @@ const Works = () => {
         <div className=" bg-[#FF501E] px-4 py-10 mt-6 text-white rounded-xl ">
           <div className="mt-10 px-10 text-center md:text-left md:flex justify-between">
             <div className="md:w-1/2">
-              <h2 className="md:text-3xl text-xl mb-8">
-                Maximize Brand Awareness Globally
-              </h2>
+              <h2 className="md:text-3xl text-xl mb-8">Collaborate</h2>
               <p className="mb-5">
-                Expand your brand's presence worldwide by partnering with
-                influencers from our extensive database. Tribefind offers a
-                unique advantage with our large selection of influencers from
-                Africa, helping you make a global impact.
+                Find and connect with the perfect match for your campaign.
+                Whether you're a brand looking for authentic voices or a creator
+                seeking premium partnerships, TribeFind makes collaboration
+                seamless with secure payments and clear communication tools.
               </p>
               <Link
                 className="p-2 bg-[#F4F9F5] text-black font-semibold whitespace-nowrap rounded-lg border-2 border-r-4 border-b-4 border-black"
-                href="/get-started"
+                href="https://form.typeform.com/to/LV3PybD4"
               >
                 Collaborate
               </Link>
@@ -88,18 +83,15 @@ const Works = () => {
         <div className=" bg-[#1C1D1E] px-4 py-10 mt-6 text-white rounded-xl ">
           <div className="mt-10 px-10 text-center md:text-left md:flex justify-between">
             <div className="md:w-1/2">
-              <h2 className="md:text-3xl text-xl mb-8">
-                Maximize Brand Awareness Globally
-              </h2>
+              <h2 className="md:text-3xl text-xl mb-8">Track Performance</h2>
               <p className="mb-5">
-                Expand your brand's presence worldwide by partnering with
-                influencers from our extensive database. Tribefind offers a
-                unique advantage with our large selection of influencers from
-                Africa, helping you make a global impact.
+                Get real-time insights on campaign success. Monitor engagement,
+                reach, conversions, and ROI through our intuitive dashboard,
+                helping you optimize future partnerships and maximize impact.
               </p>
               <Link
                 className="p-2 bg-[#F4F9F5] text-black font-semibold whitespace-nowrap rounded-lg border-2 border-r-4 border-b-4 border-black"
-                href="/get-started"
+                href="https://form.typeform.com/to/LV3PybD4"
               >
                 Collaborate
               </Link>

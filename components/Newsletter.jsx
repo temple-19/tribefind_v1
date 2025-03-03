@@ -13,12 +13,13 @@ const Newsletter = () => {
       />
       <div className="text-center">
         <h2 className="md:text-4xl text-[28px] pt-8 pb-4">
-          Tribefind is the Largest <br /> Creator Database in Africa
+          Connecting Brands with Africa&#39;s Top Creators
+          <br />
         </h2>
         <p className="p-4">
-          Tribe Find is home to the biggest and most diverse network of creators
-          across Africa. We’re dedicated to helping brands and influencers
-          connect and create meaningful partnerships that make an impact.
+          Tribe Find is home to the most diverse network of creators across
+          Africa. We&#39;re dedicated to helping brands and influencers connect
+          and create meaningful partnerships that make an impact.
         </p>
       </div>
       <Image

@@ -14,10 +14,9 @@ const Hero = () => {
         </span>{" "}
         the Right Way
       </h1>
-      <p className="text-center text-[12px] md:text-[18px]">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      <p className="text-center text-[12px] md:text-[22px]">
+        Get started, join the waitlist
         <br />
-        tempor. sed do eiusmod tempor.
       </p>
       <Image
         src="/assets/images/iPhone.svg"
