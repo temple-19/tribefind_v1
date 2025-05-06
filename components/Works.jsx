@@ -29,7 +29,7 @@ const Works = () => {
         </Link>
       </div>
       <div className="space-y-4 md:space-y-10">
-        <div className=" bg-[#1EBDEA] px-4 py-10 text-white rounded-xl mt-6 ">
+        <div className=" bg-[#1EBDEA] px-4 py-4 text-white rounded-xl mt-6 ">
           <div className="mt-10 px-10 text-center md:text-left md:flex justify-between">
             <div className="md:w-1/2">
               <h2 className="md:text-3xl text-xl mb-8">Create an Account</h2>
@@ -46,11 +46,11 @@ const Works = () => {
               </Link>
             </div>
             <Image
-              src="/assets/images/iPhone.svg"
+              src="/assets/images/create.png"
               alt="iPhone Illustration"
-              width={200}
-              height={200}
-              className="mx-auto mt-8"
+              width={450}
+              height={250}
+              className="mx-auto rounded-lg"
             />
           </div>
         </div>
@@ -76,7 +76,7 @@ const Works = () => {
               alt="iPhone Illustration"
               width={200}
               height={200}
-              className="mx-auto mt-8"
+              className="mx-auto "
             />
           </div>
         </div>
@@ -97,11 +97,40 @@ const Works = () => {
               </Link>
             </div>
             <Image
-              src="/assets/images/iPhone.svg"
+              src="/assets/images/kpi.png"
               alt="iPhone Illustration"
-              width={200}
-              height={200}
-              className="mx-auto mt-8"
+              width={550}
+              height={250}
+              className="mx-auto rounded-lg"
+            />
+          </div>
+        </div>
+        <div className=" bg-[#ffffff] px-4 py-10 mt-6 text-black rounded-xl border border-black ">
+          <div className="mt-10 px-10 text-center md:text-left md:flex justify-between">
+            <div className="md:w-1/2">
+              <h2 className="md:text-3xl text-xl mb-8">
+                For Creators: Turn Your Influence Into Income
+              </h2>
+              <p className="mb-5">
+                TribeFind gives you access to premium brand partnerships
+                tailored to your niche and audience. No more chasing gigs or
+                waiting to be discovered — we bring opportunities to you.
+                Collaborate with trusted brands, grow your portfolio, and get
+                paid to do what you love.
+              </p>
+              <Link
+                className="p-2 bg-[#F4F9F5] text-black font-semibold whitespace-nowrap rounded-lg border-2 border-r-4 border-b-4 border-black"
+                href="https://form.typeform.com/to/LV3PybD4"
+              >
+                Collaborate
+              </Link>
+            </div>
+            <Image
+              src="/assets/images/creator.jpg"
+              alt="iPhone Illustration"
+              width={450}
+              height={300}
+              className="mx-auto rounded-lg"
             />
           </div>
         </div>

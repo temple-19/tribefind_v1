@@ -34,14 +34,14 @@ const Why = () => {
           </p>
         </div>
         <Image
-          src="/assets/images/iPhone.svg"
-          alt="iPhone Illustration"
-          width={200}
+          src="/assets/images/targeted.jpg"
+          alt="influencer marketing targeted matches"
+          width={500}
           height={200}
-          className="mx-auto my-8"
+          className="mx-auto my-8 rounded-lg"
         />
       </div>
-      <div className="mt-10 px-10 text-center md:text-left md:flex md:justify-between md:flex-row-reverse">
+      <div className="mt-10 px-10 text-center md:text-right md:flex md:justify-between md:flex-row-reverse">
         <div className="md:w-1/2">
           <h2 className="md:text-3xl text-xl my-8">Seamless Collaboration</h2>
           <p>
@@ -51,11 +51,11 @@ const Why = () => {
           </p>
         </div>
         <Image
-          src="/assets/images/iPhone.svg"
-          alt="iPhone Illustration"
-          width={200}
+          src="/assets/images/afri1.jpg"
+          alt="influencer marketing in africa"
+          width={500}
           height={200}
-          className="mx-auto my-8"
+          className="mx-auto my-8 rounded-lg"
         />
       </div>
       <div className="mt-10 px-10 text-center md:text-left md:flex justify-between">
@@ -68,11 +68,11 @@ const Why = () => {
           </p>
         </div>
         <Image
-          src="/assets/images/iPhone.svg"
-          alt="iPhone Illustration"
-          width={200}
+          src="/assets/images/analytics.jpg"
+          alt="influencer marketing saas analytics"
+          width={400}
           height={200}
-          className="mx-auto my-8"
+          className="mx-auto my-8 rounded-lg"
         />
       </div>
     </div>
