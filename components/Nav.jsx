@@ -80,7 +80,7 @@ const Nav = () => {
           // <button
           //   type="button"
           //   onClick={() => providers && signIn(Object.values(providers)[0].id)}
-          //   className="bg-black text-white md:flex px-4 py-2 rounded hover:bg-gray-800 hidden "
+          //   className="bg-black text-white md:flex px-4 py-2 rounded hover:bg-red-600 hidden "
           //   href="https://form.typeform.com/to/LV3PybD4"
           // >
           //   Get Started
@@ -93,7 +93,7 @@ const Nav = () => {
           //   />
           // </button>
           <Link href="https://form.typeform.com/to/LV3PybD4" passHref>
-            <button className="bg-black text-white md:flex px-4 py-2 rounded hover:bg-gray-800 hidden ">
+            <button className="bg-black text-white md:flex px-4 py-2 rounded hover:bg-red-600 hidden ">
               Get Started
               <Image
                 src="/assets/icons/right arrow.svg"

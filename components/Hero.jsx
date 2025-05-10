@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 
 const Hero = () => {
@@ -18,6 +19,18 @@ const Hero = () => {
         Get started, join the waitlist
         <br />
       </p>
+      <Link href="https://form.typeform.com/to/LV3PybD4" passHref>
+        <button className="bg-black text-white md:flex px-4 py-2  mx-auto mt-3 rounded hover:bg-red-600 hidden ">
+          Get Started
+          <Image
+            src="/assets/icons/right arrow.svg"
+            alt="logo"
+            width={20}
+            height={20}
+            className="object-contain ml-3 mt-1"
+          />
+        </button>
+      </Link>
       <Image
         src="/assets/images/iPhone.svg"
         alt="iPhone Illustration"

@@ -81,7 +81,7 @@ const Inspo = () => {
             className=" "
           />
           <h2 className="md:text-4xl text-[28px] md:my-10 my-4 leading-[]">
-            Ready to Level Up <br /> Your Influencer Game or Brand?
+            Ready to Level Up <br /> Your Brand or Business?
           </h2>
           <Image
             src="/assets/images/sright.png"
