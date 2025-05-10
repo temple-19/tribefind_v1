@@ -72,11 +72,11 @@ const Works = () => {
               </Link>
             </div>
             <Image
-              src="/assets/images/iPhone.svg"
+              src="/assets/images/collabb.jpg"
               alt="iPhone Illustration"
-              width={200}
-              height={200}
-              className="mx-auto "
+              width={450}
+              height={250}
+              className="mx-auto rounded-lg"
             />
           </div>
         </div>
